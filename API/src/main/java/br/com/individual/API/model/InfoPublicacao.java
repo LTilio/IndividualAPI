@@ -16,7 +16,7 @@ import jakarta.validation.constraints.Size;
 @Embeddable
 public class InfoPublicacao {
 
-	@NotBlank(message = "Peencha o titulo")
+	@NotBlank(message = "Peencha o autor")
 	@Size(max = 30, message = "Maximo de {max} letras")
 	private String autor;
 	
@@ -26,7 +26,7 @@ public class InfoPublicacao {
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date dataPublicacao;
 	
-	@NotBlank(message = "Peencha o titulo")
+	@NotBlank(message = "Peencha a editora")
 	@Size(max = 30, message = "Maximo de {max} letras")
 	private String editora;
 
