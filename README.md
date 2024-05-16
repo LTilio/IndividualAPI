@@ -29,7 +29,7 @@ requisitos minimos;
 
   Java 17
 
-  ## :dart: EndPOoints
+  ## :dart: EndPoints
 
   FindAll - localhost:8080/livros
 
